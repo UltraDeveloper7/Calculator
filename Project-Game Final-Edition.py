@@ -268,6 +268,10 @@ while running :
                     for b in balls:
                         b.showturtle()
                     score_board.write("Lifes: {}".format(lifes), font=("Courier", 24, "normal"))
+                    if lifes == 1 or lifes == 0:
+                        score_board.clear()
+                        score_board.color("red")
+                        score_board.write("Life: {}".format(lifes), font=("Courier", 24, "normal"))
                     comet_pen.write(cometstring, False, align = "Left", font = ("Courier", 24, "normal"))
                         
                        
