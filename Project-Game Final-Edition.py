@@ -240,6 +240,10 @@ while running :
                     player.hideturtle()
                     for b in balls:
                         b.hideturtle()
+                    comet_pen.clear()   
+                    comet_pen.hideturtle()
+                    score_board.hideturtle()
+                    score_board.clear()
                     wn.update()
                                  
 
@@ -249,6 +253,10 @@ while running :
                     player.hideturtle()
                     for b in balls:
                         b.hideturtle()
+                    comet_pen.clear()   
+                    comet_pen.hideturtle()
+                    score_board.hideturtle()
+                    score_board.clear()
                     wn.update()
                     
                         
