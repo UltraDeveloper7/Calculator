@@ -267,6 +267,8 @@ while running :
                     player.showturtle()
                     for b in balls:
                         b.showturtle()
+                    score_board.write("Lifes: {}".format(lifes), font=("Courier", 24, "normal"))
+                    comet_pen.write(cometstring, False, align = "Left", font = ("Courier", 24, "normal"))
                         
                        
                     wn.update()                             #everytime it goes into the loop it updates the screen
