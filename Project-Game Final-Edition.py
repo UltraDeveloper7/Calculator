@@ -351,11 +351,7 @@ while running :
                         if t > 12 or k > 25:
                            t *= 0.85
                            k *= 0.85
-
-                    if lifes == 1 or lifes == 0:
-                        score_board.clear()
-                        score_board.color("red")
-                        score_board.write("Life: {}".format(lifes), font=("Courier", 24, "normal"))
+                            
                   
                 elif Game_State == "Game - Over":   
                     wn.bgpic("Game_Over.gif")
