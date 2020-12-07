@@ -1,4 +1,4 @@
-# ProjectGame
+# Calculator
 
 A simple calculator for an initial house work
                                                                                                             
