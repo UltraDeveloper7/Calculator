@@ -1,6 +1,6 @@
 # ProjectGame
 
-That particular form of programm is not a professional one but is a game made explicitly for our project work to our Univercity!!
+A simple calculator for an initial house work
                                                                                                             
                                                                                                             
                                                                                                             Sincerely,
